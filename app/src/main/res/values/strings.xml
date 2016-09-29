@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">               cool</string>
+    <string name="earth">地球</string>
+    <string name="diary">日记</string>
+    <string name="diary1"><u>创建账户即代表您同意</u></string>
+    <string name="diary2"><u>使用条款和隐私政策</u></string>
+</resources>

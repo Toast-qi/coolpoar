@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <FrameLayout
+        android:id="@+id/read_frag1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        >
+        <com.bigkoo.convenientbanner.ConvenientBanner
+            android:id="@+id/banner"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+        </com.bigkoo.convenientbanner.ConvenientBanner>
+    </FrameLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/read_vpager1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+
+
+</LinearLayout>

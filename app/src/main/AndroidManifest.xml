@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.junqi.cool">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".Activity.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/onepush"
+        android:label="ONE"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.SecondActivity" />
+        <activity android:name=".Activity.ThreeActivity" />
+        <activity android:name=".Activity.LoginActivity" />
+        <activity android:name=".Activity.MainActivity" />
+        <activity android:name=".Activity.GuideActivity" />
+        <activity android:name=".Activity.ReadDpActivity" />
+        <activity android:name=".Activity.ReadLianZai" />
+        <activity android:name=".Activity.WenDaActivity" />
+        <activity android:name=".Activity.Login_zhuceActivity" />
+        <activity android:name=".Activity.Login_dengluActivity" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".Activity.WebViewActivity" />
+        <activity android:name=".Activity.ShareActivity" />
+
+
+        <activity android:name=".Activity.GGG"></activity>
+    </application>
+
+</manifest>

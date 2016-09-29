@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Activity.LoginActivity">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"/>
+    <ImageView
+        android:id="@+id/login_arrows"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/return_imag"/>
+    <TextView
+        android:id="@+id/login_one"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="    登录ONE"
+        android:textSize="20dp"
+        android:layout_toRightOf="@+id/login_arrows"
+        android:layout_marginLeft="55dp"
+        android:gravity="center"
+        />
+<LinearLayout
+    android:layout_marginTop="45dp"
+    android:layout_below="@+id/login_one"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:background="@mipmap/wechat_login_bg_pressed"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:background="@mipmap/sina_login_bg_pressed"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:background="@mipmap/qq_login_bg_pressed"/>
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="或者"
+        android:gravity="center"/>
+    <LinearLayout
+
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+    <ImageView
+
+        android:layout_width="1dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="9dp"
+        android:layout_weight="1"
+        android:background="@drawable/loginphone"/>
+        <TextView
+            android:id="@+id/login_denglu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="使用手机号登录"
+           android:layout_marginTop="8dp"
+            android:layout_weight="1"
+
+            android:textSize="17dp"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/diary1"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:layout_marginTop="85dp"/>
+    <!--<View-->
+        <!--android:layout_width="180dp"-->
+        <!--android:layout_height="2dp"-->
+        <!--android:background="#00000"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--/>-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/diary2"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textSize="15dp"/>
+<!--<view-->
+    <!--android:layout_width="150dp"-->
+    <!--android:layout_height="2dp"-->
+    <!--android:background="#ffffff"-->
+    <!--android:layout_gravity="center_horizontal"-->
+    <!--/>-->
+
+</LinearLayout>
+
+</RelativeLayout>

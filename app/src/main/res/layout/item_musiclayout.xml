@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/music_zhutu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+             />
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="-15dp"
+            android:layout_marginLeft="19dp"
+            android:background="#ffffff"
+
+            android:orientation="horizontal"
+            >
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/shape_lineout"
+              >
+              <ImageView
+                  android:id="@+id/mu_person_iv"
+                  android:layout_width="50dp"
+                  android:layout_height="50dp"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginLeft="10dp"
+                  />
+              <TextView
+                  android:id="@+id/mu_person_tv"
+                  android:layout_width="150dp"
+                  android:layout_height="wrap_content"
+
+                  android:layout_marginLeft="70dp"
+                 android:layout_alignTop="@+id/mu_person_iv"
+                  android:textColor="@color/colorblue"
+                  />
+              <TextView
+                  android:id="@+id/mu_person_tv2"
+                  android:layout_width="150dp"
+                  android:layout_height="wrap_content"
+                  android:layout_alignLeft="@+id/mu_person_tv"
+                  android:textSize="11dp"
+                  android:layout_marginTop="35dp"
+
+                  />
+              <ImageView
+                  android:id="@+id/mu_person_tv3"
+                  android:layout_width="100dp"
+                  android:layout_height="20dp"
+                  android:layout_toRightOf="@+id/mu_person_tv2"
+                  android:layout_marginTop="10dp"
+
+
+                  android:background="@drawable/xiami_right"/>
+
+
+              <ImageView
+                  android:id="@+id/mu_person_iv4"
+                  android:layout_width="40dp"
+                  android:layout_height="40dp"
+                  android:layout_marginTop="35dp"
+
+                  android:background="@drawable/player_play"
+                  android:layout_alignRight="@id/mu_person_tv3"/>
+              <TextView
+                  android:id="@+id/mu_person_tv5"
+                  android:layout_width="90dp"
+                  android:layout_height="50dp"
+                  android:layout_marginTop="90dp"
+
+                  android:layout_alignLeft="@+id/mu_person_iv4"
+
+
+               />
+              <TextView
+                  android:id="@+id/mu_person_tv6"
+                  android:layout_width="200dp"
+                  android:layout_height="30dp"
+                 android:layout_marginLeft="10dp"
+                  android:layout_marginTop="70dp"
+                  android:textSize="17dp"
+                  android:paddingLeft="0dp"
+                  />
+          </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/colorgray"/>
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:text="音乐故事"
+                    android:paddingLeft="8dp"
+                    android:paddingTop="8dp"
+                    android:textSize="12dp"/>
+                <ImageView
+                    android:layout_marginLeft="120dp"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/music_story"/>
+                <ImageView
+                    android:id="@+id/music_lyric"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="25dp"
+                    android:layout_height="22dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/music_lyric"/>
+                <ImageView
+                    android:id="@+id/music_gantan"
+                    android:layout_marginLeft="40dp"
+                    android:layout_width="25dp"
+                    android:layout_height="22dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/music_about"/>
+
+
+
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorgray"/>
+            <TextView
+                android:id="@+id/music_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/story_author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+                android:textColor="@color/colorblue"/>
+
+            <TextView
+                android:id="@+id/story_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+/>
+            <TextView
+                android:id="@+id/story_bianji"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:orientation="horizontal"
+                android:background="@color/colorgray"/>
+            <!--评论布局-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_marginLeft="25dp"
+                    android:layout_width="20dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/music_like"/>
+                <TextView
+                    android:layout_marginLeft="8dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="4689"/>
+                <LinearLayout
+                    android:layout_marginLeft="35dp"
+                    android:layout_width="1dp"
+                    android:layout_height="21dp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorgray"/>
+                <ImageView
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="48dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/music_comment"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="789"/>
+                <!--评论框里那条竖线-->
+                <TextView
+                    android:layout_marginLeft="35dp"
+                    android:layout_width="1dp"
+                    android:layout_height="21dp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorgray"/>
+                <ImageView
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="48dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/music_share"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="7316"/>
+
+
+
+
+            </LinearLayout>
+            <!--边框那条线-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorgray"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/colergraiy"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/music_tv_sing"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:text="相似歌曲"
+                    android:paddingTop="5dp"
+                    />
+                <ImageView
+                    android:layout_toRightOf="@id/music_tv_sing"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/music_list"/>
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <!--下面三本书代码-->
+                <LinearLayout
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!--三个相册-->
+                    <ImageView
+                        android:id="@+id/music_image1"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/default_music_bg"/>
+                    <TextView
+                        android:id="@+id/music_text1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Love the way.."/>
+                    <TextView
+                        android:id="@+id/music_text11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorblue"
+                        android:text="Jay Z"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/music_image2"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/default_music_bg"/>
+                    <TextView
+                        android:id="@+id/music_text2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Zat.."/>
+                    <TextView
+                        android:id="@+id/music_text22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorblue"
+                        android:text="Eminem"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/music_image3"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/default_music_bg"/>
+                    <TextView
+                        android:id="@+id/music_text3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="明天你好.."/>
+                    <TextView
+                        android:id="@+id/music_text33"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorblue"
+                        android:text="T.I"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:paddingTop="7dp"
+                android:background="@color/colergraiy"
+                android:text="评论列表"/>
+            <ListView
+                android:id="@+id/comment_listview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </ListView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
